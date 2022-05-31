@@ -100,13 +100,13 @@
 
     echo "Coeficiente de correlacion de Person: <br></br>";
     
-    echo "Coeficiente de correlacion de Person:  : ". ( $covarianza/($desvestanx*$desvestany))+.03. "<br></br>";
+    echo "Coeficiente de correlacion de Person:  : ". ( $covarianza/($desvestanx*$desvestany)). "<br></br>";
 
     echo"-----------------------------------------------------<br></br>";
 
     echo "Coeficiente de Determinacion de Person: <br></br>";
     
-    echo "Coeficiente de correlacion de Person:  : ".((($covarianza/($desvestanx*$desvestany))+.03)**2*100). "<br></br>";
+    echo "Coeficiente de correlacion de Person:  : ".((($covarianza/($desvestanx*$desvestany)))**2*100). "<br></br>";
 
     echo"-----------------------------------------------------<br></br>";
 
